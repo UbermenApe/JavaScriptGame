@@ -1,0 +1,39 @@
+.grid{
+    width: 600px;
+    height: 600px;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.nomalAliens{
+    background-image: url(/img/alien1.png);
+    background-size: cover;
+}
+
+.laser{
+    border-left: solid 5px rgb(255, 0, 0);
+    left: 15px;
+}
+
+.shooter{
+    background-image: url(/img/free-icon-fighter-jet-4054467.png);
+    background-size: cover;
+}
+
+.boom{
+    background-color: red;
+    border-radius: 20px;
+}
+
+.ailenLaser{
+    border-left: solid 5px rgb(72, 255, 0);
+    left: 18px;
+}
